@@ -7,9 +7,7 @@ export default {
 <template>
   <div class="nav">
     <div class="nav-wrapper golf-container">
-        <div class="nav-img">
-            XXX
-        </div>
+        <img src="@/components/img/o.webp" alt="Icon" class="nav-img" />
         <div class="nav-links">
             LINKS
         </div>
@@ -29,10 +27,10 @@ export default {
         padding: 1rem;
         align-items: center;
 
-        // .nav-img{
-        //     width: 150px;
-        //     height: 36px;
-        // }
+        .nav-img{
+            width: 150px;
+            height: 36px;
+        }
 
         .nav-links{
             margin: 0 auto;
