@@ -1,0 +1,14 @@
+body{
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.golf-container {
+    margin: 0 auto;
+    width: calc(100% - 2rem);
+    max-width: 1240px;
+
+    @media screen and (max-width: 768px) {
+        width: calc(100% - 0.4rem);
+    }
+}
